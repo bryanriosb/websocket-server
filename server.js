@@ -16,7 +16,6 @@ const io = require('socket.io')(http, {
 const connections = new Set();
 
 const redis = require('redis');
-/*const broker = 'amqp://admin:Borls2020*@localhost:5672';*/
 const broker = 'amqp://localhost:5672';
 const pattern ='elevation';
 const exchangeName = 'task';

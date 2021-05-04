@@ -2,7 +2,7 @@
 Gestión de datos en tiempo real
 
 ### Qué contiene el repositorio? ###
-Servidor WebSocket para conexión PubSub de Redis
+Servidor WebSocket para conexión PubSub de Redis o RabbitMQ (Cola de mensajes)
 
 * Instalación
 * Ejecución
